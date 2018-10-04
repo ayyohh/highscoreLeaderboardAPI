@@ -13,14 +13,14 @@ app.use(express.static('public'));
 
 const corsOptions = {
     origin: "http://localhost:3000",
-    credentials: true,
+    credentials: false,
     optionsSuccessStatus: 200
 }
 app.use(cors(corsOptions));
 
 const scoreController = require('./controllers/score');
 
-app.use("/api/leaderboard", scoreController);
+app.use("/", scoreController);
 
 
 

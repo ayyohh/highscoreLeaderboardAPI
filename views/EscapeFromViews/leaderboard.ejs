@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <title>EscapeFromUnionStation</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+<div class="container">
+  <div class="row">
+
+    <h3>EscapeFromUnionStation LeaderBoard</h3>
+
+    <% for (let i = 0; i < scores.length; i++) { %>
+    <%  let name = scores[i].name; %>
+    <%  let score = scores[i].score; %>
+    <div class="leaders col-12">
+      <%= score %>
+      <%= name %>
+    </div>
+    <% } %>
+  <div class="row">
+  <div class="col">
+    <a href="/game">Play Game</a>
+    <a href="/">Main Menu</a>
+  </div>
+  </div>
+
+  </div>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.container {
+  background-color: lightgreen;
+}
+.leaders {
+  align-items: center;
+  padding: 10px;
+  margin: 15px
+}
+
+a {
+  margin: 30px;
+  padding: 10px;
+  color: darkgray;
+}
