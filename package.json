@@ -1,5 +1,5 @@
 {
-  "name": "game-json-api",
+  "name": "leaderboard",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
