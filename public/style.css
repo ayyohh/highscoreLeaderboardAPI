@@ -10,6 +10,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }
 
 .titleLOGO {
@@ -33,6 +34,20 @@ body {
   margin-top: 30px;
   z-index: 15px;
 }
+.startInLeader {
+  width: 40%;
+  height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menuLOGO {
+  width: 40%;
+  height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .leader {
   width: 40%;
   height: 80%;
@@ -42,9 +57,13 @@ body {
   z-index: 15px;
 }
 .leaders {
-  align-items: center;
-  padding: 10px;
-  margin: 15px
+  font-family: 'Bungee';
+  font-size: 18px;
+  color: white;
+  display: block;
+  margin-left: 20%;
+
+
 }
 
 a {
@@ -59,4 +78,20 @@ a {
 .start:hover {
   width: 50%;
   height: 90%;
+}
+.startInLeader:hover {
+  width: 50%;
+  height: 90%;
+}
+
+
+
+
+.leaderLOGO {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
