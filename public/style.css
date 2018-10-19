@@ -2,35 +2,27 @@
 
 body {
   background-image: url("backgroundSplash.png");
-
   /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-@-webkit-keyframes titleMove {
-    0%   {left:45%;}
-    10%  {left:40%;}
-    30%  {left:37%;}
-    55%  {left:40%;}
-    65%  {left:45%;}
-    80%  {left:40%;}
-    95%  {left:37%;}
-    100% {left:40%;}
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-
-.title {
+.titleLOGO {
   width: 75%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
-  -webkit-animation: titleMove 2s infinite  normal ease-out;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
 }
+
 
 .start {
   width: 40%;
@@ -59,4 +51,12 @@ a {
   margin: 30px;
   padding: 10px;
   color: darkgray;
+}
+.leader:hover {
+  width: 50%;
+  height: 90%;
+}
+.start:hover {
+  width: 50%;
+  height: 90%;
 }
