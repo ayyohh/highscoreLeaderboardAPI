@@ -1,5 +1,53 @@
-.container {
-  background-color: lightgreen;
+
+
+body {
+  background-image: url("backgroundSplash.png");
+
+  /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@-webkit-keyframes titleMove {
+    0%   {left:45%;}
+    10%  {left:40%;}
+    30%  {left:37%;}
+    55%  {left:40%;}
+    65%  {left:45%;}
+    80%  {left:40%;}
+    95%  {left:37%;}
+    100% {left:40%;}
+}
+
+
+.title {
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  -webkit-animation: titleMove 2s infinite  normal ease-out;
+}
+
+.start {
+  width: 40%;
+  height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  z-index: 15px;
+}
+.leader {
+  width: 40%;
+  height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 15px;
 }
 .leaders {
   align-items: center;
